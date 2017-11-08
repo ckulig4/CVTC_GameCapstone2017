@@ -20,4 +20,16 @@
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/assets/images</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>WebContent/assets/images/medieval.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Text%20Adventure/images/medieval.jpg</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

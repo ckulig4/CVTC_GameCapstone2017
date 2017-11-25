@@ -1,0 +1,171 @@
+html {
+    background-color: black;
+    min-width: 1200px;
+    opacity: .9;
+}
+
+#spaceContent {
+    margin: auto;
+    width: 1200px;
+}
+#pageHeader {
+    background: black;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: "Trebuchet", sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+#background {
+    margin: auto;
+    width: 1200px;
+}
+#stars {
+    border-radius: 5px;
+    width: 1200px;
+}
+#ship {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100px;
+}
+#progress-area {
+    border-radius: 25px;
+    float: left;
+    margin: 15px 0 25px 0;
+    position: relative;
+    width: 1200px;
+}
+#controlPanel {
+    float: left;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+#controlPanel button {
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    height: 75px;
+    margin: 15px 50px;
+    width: 200px;
+}
+#controlPanel button:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+#dashboard {
+    display: block;
+    float: left;
+    margin: auto;
+    width: 1200px;
+}
+#statBoard {
+    float: left;
+    margin-left: 20px;
+}
+#updateBoard {
+    float: left;
+}
+#activityBoard {
+    float: right;
+    width: 350px;
+}
+.sectionHeads {
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+}
+#stats-area {
+    background-color: #FFF;
+    border-radius: 5px;
+    clear: left;
+    float: left;
+    font-size: 20px;
+    height: 300px;
+    margin: 0 15px 10px 10px;
+    padding: 15px;
+    width: 300px;
+}
+.stat-value {
+    float: right;
+}
+#updates-area {
+    background-color: #FFF;
+    border-radius: 5px;
+    float: left;
+    font-size: 20px;
+    height: 300px;
+    margin: 0 10px 10px 15px;
+    overflow-y: scroll;
+    padding: 15px;
+    width: 396px;
+}
+#attack {
+    background-color: #FFF;
+    border-radius: 5px;
+    float: left;
+    font-size: 20px;
+    height: 325px;
+    width: 350px;
+}
+#shop {
+    background-color: #FFF;
+    border-radius: 5px;
+    float: left;
+    font-size: 20px;
+    height: 325px;
+    width: 350px;
+}
+#prods {
+    clear: both;
+    float: left;
+    margin: 10px;
+}
+.product {
+    border: 1px solid black;
+    border-radius: 5px;
+    clear: both;
+    float: left;
+    margin: 10px;
+    opacity: .5;
+}
+#shop button {
+    border-radius: 5px;
+    clear: both;
+    float: left;
+    margin: 15px;
+}
+#fight, #runaway {
+    border-radius: 5px;
+    margin: 10px;
+}
+#attack-description {
+    clear: both;
+    float: left;
+    margin: 10px;
+}
+.product:hover, #shop button:hover, #fight:hover, #runaway:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+.hidden {
+    display: none;
+}
+#event {
+    background-color: magenta;
+}
+.update-positive {
+    color: #669966;
+}
+.update-negative {
+    color: red;
+}
+.update-neutral {
+    color: #90908F;
+}

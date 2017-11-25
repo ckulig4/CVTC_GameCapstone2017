@@ -6,6 +6,11 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
 			</arguments>
@@ -15,10 +20,19 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
 	<linkedResources>
 		<link>
@@ -30,6 +44,16 @@
 			<name>WebContent/assets/images/medieval.jpg</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Text%20Adventure/images/medieval.jpg</locationURI>
+		</link>
+		<link>
+			<name>WebContent/assets/images/spaceBackground.png</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/SpaceCaravan/images/spaceBackground.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/assets/images/spaceShip.png</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/SpaceCaravan/images/spaceShip.png</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

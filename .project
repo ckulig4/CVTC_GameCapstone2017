@@ -45,5 +45,15 @@
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Text%20Adventure/images/medieval.jpg</locationURI>
 		</link>
+		<link>
+			<name>WebContent/assets/images/spaceBackground.png</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/SpaceCaravan/images/spaceBackground.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/assets/images/spaceShip.png</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/SpaceCaravan/images/spaceShip.png</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

@@ -1,5 +1,14 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
+<<<<<<< HEAD
+Built-By: Alan Xiong
+=======
+Built-By: Michael
+>>>>>>> master
+Build-Jdk: 1.8.0_144
+=======
 Built-By: nelsonky18
 Build-Jdk: 1.8.0_111
+>>>>>>> master
 Created-By: Maven Integration for Eclipse
 

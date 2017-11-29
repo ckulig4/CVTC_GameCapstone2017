@@ -1,21 +1,12 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/medieval.css">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/medieval.js"></script>
   </head>
   <body>
-    <header>
-    </header>
-    <!-- START NAVIGATION -->
-    <div class="navigation">
-      <a href="">Link 1</a>
-      <a href="">Link 2</a>
-      <a href="">Link 3</a>
-      <a href="">Link 4</a>
-      <a href="">Link 5</a>
-    </div>
-    <!-- END NAVIGATION -->
+  	<%@include file="../includes/navigation.jsp" %>
     <div class="gameHead">
       <h2 id="medievalHead">Application Name</h2>
     </div>
@@ -31,7 +22,7 @@
         </div>
         <div id="levelUp"></div>
         <div class="user">
-          <span>Username</span>
+          <span id="username">Username</span>
         </div>
         <div class="textInput">
           <input class="inputBox" type="text" name="input" placeholder="Enter your text here..." autocomplete="off">

@@ -1,11 +1,13 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Space Caravan</title>
-        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/spaceCaravan.css"/>
     </head>
+    <%@include file="../includes/navigation.jsp" %>
     <body>
         <div id="spaceContent">
             <h2 id="pageHeader">Space Caravan</h2>
@@ -52,10 +54,10 @@
                     <div id="event"></div>
                 </div>
             </div>
-            <script src="js/Event.js"></script>
-            <script src="js/Caravan.js"></script>
-            <script src="js/UI.js"></script>
-            <script src="js/Game.js"></script>
+            <script src="js/SpaceCaravan/Event.js"></script>
+            <script src="js/SpaceCaravan/Caravan.js"></script>
+            <script src="js/SpaceCaravan/UI.js"></script>
+            <script src="js/SpaceCaravan/Game.js"></script>
         </div>
     </body>
-</html> -->
+</html>

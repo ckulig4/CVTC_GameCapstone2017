@@ -1,21 +1,12 @@
 <html>
   <head>
-   <link rel="stylesheet" type="text/css" href="css/txiong55.css">
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/football.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
+   	<link rel="stylesheet" type="text/css" href="css/txiong55.css">
+   	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/football.js"></script>
   </head>
   <body>
-    <header>
-    </header>
-    <!-- START NAVIGATION -->
-    <div class="navigation">
-      <a href="">Link 1</a>
-      <a href="">Link 2</a>
-      <a href="">Link 3</a>
-      <a href="">Link 4</a>
-      <a href="">Link 5</a>
-    </div>
-    <!-- END NAVIGATION -->
+    <%@include file="../includes/navigation.jsp" %>
     <div class="gameHead">
       <h2 id="footBallHead">Super Bowl</h2>
     </div>

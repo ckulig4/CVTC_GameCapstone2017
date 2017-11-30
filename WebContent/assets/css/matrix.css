@@ -1,0 +1,112 @@
+
+
+header>h1{
+  color: #1EC503;
+  background-color: #222;
+  font-size: 32px;
+  text-shadow: 1px 1px black;
+  border-bottom: 1px solid #1EC503;
+  border-top: 1px solid #1EC503;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: .75em;
+}
+
+.main{
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1em;
+  width: 88%;
+}
+
+.navigation a {
+  font-size: 20px;
+  border: 1px solid #1EC503;
+  padding: 4px;
+  color: #1EC503;
+  background-color: #222;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #1EC503;
+  color: black;
+  border: 1px solid #222;
+}
+
+footer{
+  color: #1EC503;
+  background-color: #222;
+  text-shadow: 1px 1px black;
+  border-bottom: 1px solid #1EC503;
+  border-top: 1px solid #1EC503;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+footer>p{
+  margin: 3px;
+}
+
+#wrapper{
+  background-color: black;
+  color: #96E100;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+#story{
+  font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+  padding-bottom: 10px;
+}
+
+#blackWindow{
+  border: 5px solid #222;
+  background-color: black;
+  color: #1EC503;
+}
+
+#button {
+    color: #1EC503;
+    font-weight: bold;
+    text-shadow: 1px 1px #1f272b;
+    border: 1px solid #1c252b;
+    border-radius: 3px;
+    background: #232B30; 
+}
+
+#button:hover {
+    color: #fff;
+    background: #4C5A64; 
+}
+
+#answer{
+  background-color: #222;
+  color: #1EC503;
+  border: 1px solid #1EC503;
+  text-align: center;
+}
+
+#sendRight{
+  text-align: right;
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+a:link{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+}
+
+
+
+
+
+
+
+

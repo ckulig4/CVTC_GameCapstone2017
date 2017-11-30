@@ -40,10 +40,5 @@
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
-		<link>
-			<name>WebContent/assets/images/medieval.jpg</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Text%20Adventure/images/medieval.jpg</locationURI>
-		</link>
 	</linkedResources>
 </projectDescription>

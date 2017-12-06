@@ -6,24 +6,24 @@
     <link rel="stylesheet" type="text/css" href="css/matrix.css">
     <title>Matrix Adventure</title>
   </head>
-<%@include file="../includes/navigation.jsp" %>
-  <body id="wrapper">
-    <div id="sendRight">
-      <audio controls>
-        <source src="music/keephopealive.mp3" type="audio/mpeg">
-        Your browser does not support the audio feature.
-      </audio>
-  </div>  
+  <body id="wrapper"> 
     <header>
+<%@include file="../includes/navigation.jsp" %>  
       <h1>Matrix Text Adventure</h1>
     </header>
     <div class="main" id="blackWindow">
       <div id="story">Enter "start" to start the simulation.</div>
       <small>(type in selection then click enter)<br></small>
-      <input type="text" id="answer" data-part="0"> <button id="button">Enter</button>
+      <input type="text" id="answer" data-part="0">
+      <button id="matrixButton">Enter</button>
       <script src="js/matrix.js"></script>
     </div>
-    <footer>
+    <div id="audio">
+      <audio controls id="audioController" autoplay="autoplay">
+        <source src="music/keephopealive.mp3" type="audio/mpeg">
+      </audio>
+  	</div>
+  	<footer>
       <p>
         <small>
           Copyright &copy; 2017 Cole Kulig<br>

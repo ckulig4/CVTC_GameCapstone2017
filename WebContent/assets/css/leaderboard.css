@@ -1,0 +1,57 @@
+
+header>h1{
+  color: white;
+  background-color: #222;
+  font-size: 32px;
+  text-shadow: 1px 1px black;
+  border-bottom: 1px solid blue;
+  border-top: 1px solid blue;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: .75em;
+}
+
+.main{
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1em;
+  width: 88%;
+}
+
+.navigation a {
+  font-size: 20px;
+  border: 1px solid blue;
+  padding: 4px;
+  color: orange;
+  background-color: #222;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: blue;
+  color: white;
+  text-shadow: 1px 1px black;
+  border: 1px solid #222;
+}
+
+footer{
+  color: white;
+  background-color: #222;
+  text-shadow: 1px 1px black;
+  border-bottom: 1px solid blue;
+  border-top: 1px solid blue;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+footer>p{
+  margin: 3px;
+}
+
+#wrapper{
+  background-color: black;
+  color: #96E100;
+  text-align: center;
+  padding-bottom: 2px;
+}

@@ -9,8 +9,22 @@ html {
   transform: translate(-50%, -50%);
 }
 
+.gameHead {
+	background-color: black;
+}
+
 #medievalHead {
-  background-color: red;
-  width: 40%;
+  background-color: orange;
+  width: 30%;
   margin: auto;
+}
+
+#audio {
+  border: 3px solid black;
+  margin: auto;
+  width: 20%;
+}
+
+#audioController {
+	width: 100%;
 }

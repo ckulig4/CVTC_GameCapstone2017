@@ -177,6 +177,7 @@ $(document).ready(function(){
     
     if (totalHealth <= 0) {
       $("#textOutput").text("You have died");
+      levelTracker = -1;
     }
   }
   //COMPLETED
@@ -216,8 +217,12 @@ $(document).ready(function(){
   }
   //IN PROGRESS
   function textOutput(level, section, textSection) {
-    //Basic actions -> Not allowed
-    if (level == 0) {
+	if (level == -1) {
+		//Allows no other actions
+		 $("#textOutput").text("You cannot do anything, you are dead");
+	}
+	 //Basic actions -> Not allowed yet
+	else if (level == 0) {
       if (section == 0) {
         if (textSection == 1) {
           $("#textOutput").text("There is nothing for you to open here");
@@ -252,7 +257,7 @@ $(document).ready(function(){
           $("#textOutput").text("In order to play this game, you must simply type in a word into the text box, and press enter to submit it. For basic commands type in \"next\". When you are ready to begin, enter in \"start\"");
         }
         else if (textSection == 2) {
-          $("#textOutput").text("Movement commands: north, south, east, west.\nCombat commands: attack.\nBasic commands: open, pickup, inspect, fight, check area.");
+          $("#textOutput").text("Movement commands: north, south, east, west.\nCombat commands: attack.\nBasic commands: open, pickup, inspect, fight, check area, restart.");
         }
         else if (textSection == 3) {
           $("#textOutput").text("What is your name?");
@@ -359,7 +364,7 @@ $(document).ready(function(){
           $("#textOutput").text("You try to open the door, but it is locked.");
         }
         else if (textSection == 4) {
-          $("#textOutput").text("You go through the doorway");
+          $("#textOutput").text("You go through the doorway, revealing a bright light and the sounds of people cheering. Who knows what will come next?\nThank you for playing!");
         }
         else if (textSection == 5) {
           $("#textOutput").text("You are at the top of a stone staircase. To the north, there is an open door leading towards outside. Going to the south would lead you down the staircase");
@@ -396,6 +401,18 @@ $(document).ready(function(){
   }
   //IN PROGRESS
   function adventure(level, section) {
+	if(userInput == "restart" && gameStart == true) {
+	  console.log(userInput);
+      levelTracker = 1;
+  	  sectionTracker = 1;
+  	  gameStart = false;
+  	  $("#healthValue").text("");
+      $("#attackValue").text("");
+      $("#armorValue").text("");
+      $("#name").text("Name");
+      $("#class").text("");
+      $(".textArea").html("<div id=\"textOutput\">Welcome, type in \"start\" to begin, or \"instructions\" to learn the basic commands</div>");
+  	}
     if (userInput == "start" && gameStart != true) {
       gameStart = true;
     }
@@ -494,6 +511,7 @@ $(document).ready(function(){
         else if (userInput.includes("fight") && position == "north") {
           textOutput(1,3,8);
           totalHealth -= 1;
+          statCheck();
         }
         else if (userInput.includes("inspect") && position == "north" && firstDoorOpen == false) {
           textOutput(1,3,9);
@@ -507,6 +525,7 @@ $(document).ready(function(){
         else if (userInput.includes("fight") && position == "south") {
           textOutput(1,3,12);
           totalHealth -= 1;
+          statCheck();
         }
         else if (userInput.includes("inspect") && position == "south") {
           textOutput(1,3,13);
@@ -542,6 +561,7 @@ $(document).ready(function(){
           textOutput(1,4,2);
           totalHealth -= 1;
           fight("goblin");
+          statCheck();
         }
         else if (userInput.includes("check area") && goblin == false) {
           textOutput(1,4,3);
@@ -626,6 +646,7 @@ $(document).ready(function(){
           textOutput(1,5,10);
           totalHealth -= 1;
           doorHealth -= 1;
+          statCheck();
           if (doorHealth == 2) {
             textOutput(1,5,11);
           } 
@@ -643,5 +664,40 @@ $(document).ready(function(){
         }
       }
     }
+    //For future chapters...
+    else if (level == 2) {
+    	
+    }
   }
+  
+  //Sound Control
+  var audioC = document.getElementById("audioController");
+  var musicCounter = 0;
+  
+  audioC.volume = 0.3;
+  
+  audioC.addEventListener("ended", function() {
+	  if (musicCounter != 3) {
+		  musicCounter++;
+	  }
+	  else {
+		  musicCounter = 0;
+	  }
+	  
+	  if (musicCounter == 0) {
+		  audioC.src = ("music/medieval/wolf.mp3");
+	  }
+	  else if (musicCounter == 1) {
+		  audioC.src = ("music/medieval/fabula.mp3");
+	  }
+	  else if (musicCounter == 2) {
+		  audioC.src = ("music/medieval/tol.mp3");
+	  }
+	  else if (musicCounter == 3) {
+		  audioC.src = ("music/medieval/afraid.mp3");
+	  }
+	  
+	  audioC.load();
+	  audioC.play(); 
+  });
 });

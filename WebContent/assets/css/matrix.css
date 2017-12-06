@@ -78,6 +78,18 @@ footer>p{
     margin-top: 10px;
 }
 
+#matrixButton:focus {
+	outline-style:none;
+	box-shadow:none;
+	border-color: #1EC503;
+}
+
+#answer:focus {
+	outline-style:none;
+	box-shadow:none;
+	border-color: #1EC503;
+}
+
 #matrixButton:hover {
     color: #fff;
     background: #4C5A64; 

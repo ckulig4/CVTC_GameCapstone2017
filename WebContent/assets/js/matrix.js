@@ -42,7 +42,7 @@ function displayState(state){
       "You pick it up and a man starts to talk to you.<br>" +
       "<br>\"Is this Morpheus?\" you question.<br><br> The man says \"Yes, but I must be brief,<br>" + 
       "there are a group of men coming for you from the elevator.\"<br><br>" + 
-      "You look over and see them approaching.<br><br> You must make a decision to follow Morpheus\’s instruction or be captured.<br><br>" + 
+      "You look over and see them approaching.<br><br> You must make a decision to follow Morpheus's instructions or be captured.<br><br>" + 
       "Do you wish to follow, y or n?<br>",
     "You are apprehended<br><br>" +     
       "The agents interrogate you and insert a tracking device into your belly button.<br><br>" +

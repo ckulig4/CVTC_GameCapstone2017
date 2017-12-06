@@ -8,7 +8,7 @@
   <body>
   	<%@include file="../includes/navigation.jsp" %>
     <div class="gameHead">
-      <h2 id="medievalHead">Application Name</h2>
+      <h2 id="medievalHead">Medieval Arena</h2>
     </div>
     <div class="gameContainer">
       <div id="medievalContainer">
@@ -33,5 +33,9 @@
         </div>
       </div>
     </div>
+    <br><br>
+    <div id="audio">
+    	<audio controls id="audioController" src="music/medieval/wolf.mp3" autoplay="autoplay"></audio>
+  	</div>
   </body>
 </html>

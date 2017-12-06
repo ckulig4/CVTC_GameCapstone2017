@@ -12,7 +12,25 @@
       <h1>Leaderboards</h1>
     </header>
     <div class="main">
-
+	    <c:forEach items="${gameLeaderboards}">
+			<table>
+	    	    <thead>
+		       		<tr>
+		        		<th colspan="1" id="gameHeader">${Game} GameTitle</th>
+		        	</tr>
+		        </thead>
+	        	<tr class="gameVariables">
+	            	<th>Username</th>
+	            	<th>Score</th>
+	        	</tr>        
+	        	<c:forEach items="${users}">
+		            <tr>
+		                <td class="text-center">${userName}username value</td>
+						<td class="text-center">${score}score value</td>
+		            </tr>
+		    	</c:forEach>
+	    	</table>
+	    </c:forEach>
     </div>
   	<footer>
       <p>

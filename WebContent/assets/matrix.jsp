@@ -23,14 +23,7 @@
         <source src="music/keephopealive.mp3" type="audio/mpeg">
       </audio>
   	</div>
-  	<footer>
-      <p>
-        <small>
-          Copyright &copy; 2017 Cole Kulig<br>
-          <a href="mailto:ckulig4@student.cvtc.edu">ckulig4@student.cvtc.edu</a>
-        </small>        
-      </p> 
-    </footer>
+  	<%@include file="../includes/footer.jsp" %> 
   </body>
 </html>
 

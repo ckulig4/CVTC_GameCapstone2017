@@ -406,6 +406,11 @@ $(document).ready(function(){
       levelTracker = 1;
   	  sectionTracker = 1;
   	  gameStart = false;
+  	  secondStart = false;
+  	  goblin = true;
+  	  firstDoorOpen = false;
+  	  hasKey = false;
+  	  secondDoorOpen = false;
   	  $("#healthValue").text("");
       $("#attackValue").text("");
       $("#armorValue").text("");
@@ -685,16 +690,16 @@ $(document).ready(function(){
 	  }
 	  
 	  if (musicCounter == 0) {
-		  audioC.src = ("music/medieval/wolf.mp3");
-	  }
-	  else if (musicCounter == 1) {
 		  audioC.src = ("music/medieval/fabula.mp3");
 	  }
-	  else if (musicCounter == 2) {
+	  else if (musicCounter == 1) {
 		  audioC.src = ("music/medieval/tol.mp3");
 	  }
-	  else if (musicCounter == 3) {
+	  else if (musicCounter == 2) {
 		  audioC.src = ("music/medieval/afraid.mp3");
+	  }
+	  else if (musicCounter == 3) {
+		  audioC.src = ("music/medieval/wolf.mp3");
 	  }
 	  
 	  audioC.load();

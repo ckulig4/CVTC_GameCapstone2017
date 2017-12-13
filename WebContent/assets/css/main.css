@@ -110,3 +110,11 @@ input {
 .navigation a:hover {
   background-color: red;
 }
+
+footer {
+  text-align: center;
+  background-color: black;
+  width: 30%;
+  color: white;
+  margin: 20px auto;
+}

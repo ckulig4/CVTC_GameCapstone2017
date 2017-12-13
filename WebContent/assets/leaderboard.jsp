@@ -12,32 +12,29 @@
       <h1>Leaderboards</h1>
     </header>
     <div class="main">
-	    <c:forEach items="${gameLeaderboards}">
-			<table>
-	    	    <thead>
-		       		<tr>
-		        		<th colspan="1" id="gameHeader">${Game} GameTitle</th>
-		        	</tr>
-		        </thead>
-	        	<tr class="gameVariables">
+		<table>
+	 		<thead>
+		     	<tr class="gameVariables">
 	            	<th>Username</th>
 	            	<th>Score</th>
-	        	</tr>        
-	        	<c:forEach items="${users}">
-		            <tr>
-		                <td class="text-center">${userName}username value</td>
-						<td class="text-center">${score}score value</td>
-		            </tr>
-		    	</c:forEach>
-	    	</table>
-	    </c:forEach>
+	        	</tr> 
+	       	</thead>
+        	<tbody>       
+	            <tr>
+	                <td>${userName} A</td>
+					<td>${score} 1 </td>
+	            </tr>
+	            <tr>
+	            	<td>${userName} B </td>
+					<td>${score} 2</td>
+	            </tr>
+	            <tr>
+	            	<td>${userName} C</td>
+					<td>${score} 3</td>
+	            </tr>
+	    	</tbody>
+    	</table>
     </div>
-  	<footer>
-      <p>
-        <small>
-          Copyright &copy; 2017 ITSD GameCaptone 2017<br>
-        </small>        
-      </p> 
-    </footer>
+  	<%@include file="../includes/footer.jsp" %> 
   </body>
 </html>

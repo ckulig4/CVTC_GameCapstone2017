@@ -59,5 +59,6 @@
             <script src="js/SpaceCaravan/UI.js"></script>
             <script src="js/SpaceCaravan/Game.js"></script>
         </div>
+      	<%@include file="../includes/footer.jsp" %> 
     </body>
 </html>

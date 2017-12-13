@@ -29,3 +29,7 @@ html {
 	width: 100%;
 	background-color: black;
 }
+
+footer {
+	border: 2px solid white;
+}

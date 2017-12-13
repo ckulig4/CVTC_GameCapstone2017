@@ -8,7 +8,7 @@
   <body>
   	<%@include file="../includes/navigation.jsp" %>
     <div class="gameHead">
-      <h2 id="medievalHead">Medieval Arena</h2>
+      <h2 id="medievalHead">Medieval Madness</h2>
     </div>
     <div class="gameContainer">
       <div id="medievalContainer">
@@ -21,9 +21,9 @@
           </ul>
         </div>
         <div id="levelUp"></div>
-        <div class="user">
+        <!-- FOR FUTURE USE <div class="user">
           <span id="username">Username</span>
-        </div>
+        </div>-->
         <div class="textInput">
           <input class="inputBox" type="text" name="input" placeholder="Enter your text here..." autocomplete="off">
           <br>
@@ -35,7 +35,8 @@
     </div>
     <br><br>
     <div id="audio">
-    	<audio controls id="audioController" src="music/medieval/wolf.mp3" autoplay="autoplay"></audio>
+    	<audio controls id="audioController" src="music/medieval/fabula.mp3" autoplay="autoplay"></audio>
   	</div>
+  	<%@include file="../includes/footer.jsp" %> 
   </body>
 </html>

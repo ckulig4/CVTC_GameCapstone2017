@@ -20,5 +20,6 @@
           <button class="startButton">Start</button>
         </div>
       </div>
+      <%@include file="../includes/footer.jsp" %> 
   </body>
 </html>

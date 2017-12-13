@@ -1,5 +1,4 @@
-
-header>h1{
+h1 {
   	color: white;
   	background-color: #222;
   	font-size: 32px;
@@ -11,12 +10,13 @@ header>h1{
   	margin-bottom: .75em;
 }
 
-.main{
+.main {
   	display: block;
  	border-radius: 5px;
-  	margin: 0 auto;
   	padding: 1em;
   	width: 88%;
+  	margin: auto;
+  	font-size: 24px;
 }
 
 .navigation a {
@@ -56,13 +56,30 @@ footer>p{
   	padding-bottom: 2px;
 }
 
-thead > tr > th {
-	border-bottom: solid 1px black;
+th {
+	border: solid 2px black;
 }
 
 table {
 	background-color: #bfbfbf;
-	border: solid 1px blue;
+	border: solid 2px white;
 	text-shadow:.5px .5px black;
-	width: 200px;
+	width: 50%;
+	margin: auto;
+}
+
+td {
+	border: 2px solid black;
+}
+
+tr {
+	background-color: rgba(208, 229, 242, .8);
+}
+
+tr:nth-child(2) {
+	background-color: rgba(46, 125, 170, .5);
+}
+
+tr.gameVariables {
+	background-color: lightcoral;
 }

@@ -10,7 +10,7 @@ h1 {
   	margin-bottom: .75em;
 }
 
-.main {
+#main {
   	display: block;
  	border-radius: 5px;
   	padding: 1em;
@@ -76,10 +76,23 @@ tr {
 	background-color: rgba(208, 229, 242, .8);
 }
 
-tr:nth-child(2) {
+tr:nth-child(even) {
 	background-color: rgba(46, 125, 170, .5);
 }
 
 tr.gameVariables {
 	background-color: lightcoral;
+}
+
+.gameName {
+  background-color: rgba(150, 180, 230, .8);
+}
+
+button {
+	background-color: #222;
+	border: 1px solid blue;
+	color: orange;
+	padding: 2px;
+	margin: 2px;
+	font-size: 16px;
 }

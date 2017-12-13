@@ -40,6 +40,7 @@
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
+<<<<<<< HEAD
 		<link>
 			<name>WebContent/assets/images/football.jpg</name>
 			<type>1</type>
@@ -60,5 +61,7 @@
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Downloads/spaceShip.png</locationURI>
 		</link>
+=======
+>>>>>>> master
 	</linkedResources>
 </projectDescription>

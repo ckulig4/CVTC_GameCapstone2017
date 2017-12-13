@@ -1,7 +1,7 @@
 function main() {
   //variable
   var answer = document.getElementById("answer");
-  var button = document.getElementById("button");
+  var button = document.getElementById("matrixButton");
   var state = 0;
   
   button.addEventListener("click", function(e) {
@@ -15,13 +15,12 @@ function main() {
 }
 
 // displays the story state in the main box.
-//used example from Brian Hogan @bphogan to guide development
 function displayState(state){
   //variable
   var story = [];  
   story = [
     "Welcome to the simulation, Enter \"start\" to begin.",
-    "Wake Up Neo… <br>" +
+    "Wake Up Neo... <br>" +
       "The Matrix has you <br>" +
       "Follow the White Rabbit <br>" +
       "Knock Knock Neo <br><br><br>" +
@@ -43,7 +42,7 @@ function displayState(state){
       "You pick it up and a man starts to talk to you.<br>" +
       "<br>\"Is this Morpheus?\" you question.<br><br> The man says \"Yes, but I must be brief,<br>" + 
       "there are a group of men coming for you from the elevator.\"<br><br>" + 
-      "You look over and see them approaching.<br><br> You must make a decision to follow Morpheus\’s instruction or be captured.<br><br>" + 
+      "You look over and see them approaching.<br><br> You must make a decision to follow Morpheus's instructions or be captured.<br><br>" + 
       "Do you wish to follow, y or n?<br>",
     "You are apprehended<br><br>" +     
       "The agents interrogate you and insert a tracking device into your belly button.<br><br>" +

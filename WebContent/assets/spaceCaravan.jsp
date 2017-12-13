@@ -54,10 +54,10 @@
                     <div id="event"></div>
                 </div>
             </div>
-            <script src="js/SpaceCaravan/Event.js"></script>
-            <script src="js/SpaceCaravan/Caravan.js"></script>
-            <script src="js/SpaceCaravan/UI.js"></script>
-            <script src="js/SpaceCaravan/Game.js"></script>
+            <script src="js/gameLogic/SpaceCaravan/Event.js"></script>
+            <script src="js/gameLogic/SpaceCaravan/Caravan.js"></script>
+            <script src="js/gameLogic/SpaceCaravan/UI.js"></script>
+            <script src="js/gameLogic/SpaceCaravan/Game.js"></script>
         </div>
       	<%@include file="../includes/footer.jsp" %> 
     </body>

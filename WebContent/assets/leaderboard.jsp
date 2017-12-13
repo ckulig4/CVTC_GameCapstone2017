@@ -2,6 +2,7 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/leaderboard.css">
     <title>Leaderboards</title>
@@ -21,16 +22,20 @@
 	       	</thead>
         	<tbody>       
 	            <tr>
-	                <td>${userName} A</td>
-					<td>${score} 1 </td>
+	                <td>${userName} Tony</td>
+					<td>${score} 12 </td>
 	            </tr>
 	            <tr>
-	            	<td>${userName} B </td>
-					<td>${score} 2</td>
+	            	<td>${userName} Cole</td>
+					<td>${score} 9</td>
 	            </tr>
 	            <tr>
-	            	<td>${userName} C</td>
-					<td>${score} 3</td>
+	            	<td>${userName} Kyle</td>
+					<td>${score} 13</td>
+	            </tr>
+	            <tr>
+	            	<td>${userName} Mike</td>
+					<td>${score} 8</td>
 	            </tr>
 	    	</tbody>
     	</table>

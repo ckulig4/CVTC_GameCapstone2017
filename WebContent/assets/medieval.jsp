@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/medieval.css">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/medieval.js"></script>
+    <script type="text/javascript" src="js/gameLogic/medieval.js"></script>
   </head>
   <body>
   	<%@include file="../includes/navigation.jsp" %>

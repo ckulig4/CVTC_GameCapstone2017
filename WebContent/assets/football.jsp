@@ -3,7 +3,7 @@
   	<link rel="stylesheet" type="text/css" href="css/main.css">
    	<link rel="stylesheet" type="text/css" href="css/txiong55.css">
    	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-  	<script type="text/javascript" src="js/football.js"></script>
+  	<script type="text/javascript" src="js/gameLogic/football.js"></script>
   </head>
   <body>
     <%@include file="../includes/navigation.jsp" %>

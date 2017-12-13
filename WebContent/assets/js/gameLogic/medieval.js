@@ -257,7 +257,7 @@ $(document).ready(function(){
           $("#textOutput").text("In order to play this game, you must simply type in a word into the text box, and press enter to submit it. For basic commands type in \"next\". When you are ready to begin, enter in \"start\"");
         }
         else if (textSection == 2) {
-          $("#textOutput").text("Movement commands: north, south, east, west.\nCombat commands: attack.\nBasic commands: open, pickup, inspect, fight, check area, restart.");
+          $("#textOutput").text("Movement commands: north, south, east, west.\nCombat commands: attack.\nBasic commands: open, pickup, inspect, fight, check area, restart.\n\nEnter \"start\" when you are ready to begin");
         }
         else if (textSection == 3) {
           $("#textOutput").text("What is your name?");

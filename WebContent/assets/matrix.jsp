@@ -16,7 +16,7 @@
       <small>(type in selection then click enter)<br></small>
       <input type="text" id="answer" data-part="0">
       <button id="matrixButton">Enter</button>
-      <script src="js/matrix.js"></script>
+      <script src="js/gameLogic/matrix.js"></script>
     </div>
     <div id="audio">
       <audio controls id="audioController" autoplay="autoplay">

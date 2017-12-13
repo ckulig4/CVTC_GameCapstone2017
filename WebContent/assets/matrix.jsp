@@ -16,21 +16,14 @@
       <small>(type in selection then click enter)<br></small>
       <input type="text" id="answer" data-part="0">
       <button id="matrixButton">Enter</button>
-      <script src="js/matrix.js"></script>
+      <script src="js/gameLogic/matrix.js"></script>
     </div>
     <div id="audio">
       <audio controls id="audioController" autoplay="autoplay">
         <source src="music/keephopealive.mp3" type="audio/mpeg">
       </audio>
   	</div>
-  	<footer>
-      <p>
-        <small>
-          Copyright &copy; 2017 Cole Kulig<br>
-          <a href="mailto:ckulig4@student.cvtc.edu">ckulig4@student.cvtc.edu</a>
-        </small>        
-      </p> 
-    </footer>
+  	<%@include file="../includes/footer.jsp" %> 
   </body>
 </html>
 

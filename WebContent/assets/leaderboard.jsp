@@ -2,6 +2,8 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ajaxIncluder.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/leaderboard.css">
     <title>Leaderboards</title>
@@ -11,33 +13,26 @@
 <%@include file="../includes/navigation.jsp" %>  
       <h1>Leaderboards</h1>
     </header>
-    <div class="main">
-	    <c:forEach items="${gameLeaderboards}">
-			<table>
-	    	    <thead>
-		       		<tr>
-		        		<th colspan="1" id="gameHeader">${Game} GameTitle</th>
-		        	</tr>
-		        </thead>
-	        	<tr class="gameVariables">
-	            	<th>Username</th>
-	            	<th>Score</th>
-	        	</tr>        
-	        	<c:forEach items="${users}">
-		            <tr>
-		                <td class="text-center">${userName}username value</td>
-						<td class="text-center">${score}score value</td>
-		            </tr>
-		    	</c:forEach>
-	    	</table>
-	    </c:forEach>
+    <button onclick="showSuperbowl()">Superbowl Leaderboard</button>
+    <button onclick="showMedieval()">Medieval Leaderboard</button>
+    <button onclick="showSpace()">Space Leaderboard</button>
+    <button onclick="showMatrix()">Matrix Leaderboard</button>
+    <div id="main">
+    	<!--<c:choose>
+    		<c:when test="a == b">
+    		<%@include file="../includes/jstl/footballLeaderboard.jsp"%>
+    		</c:when>
+    		<c:when test="b == c">
+    		<%@include file="../includes/jstl/matrixLeaderboard.jsp"%>
+    		</c:when>
+    		<c:when test="c == d">
+    		<%@include file="../includes/jstl/medievalLeaderboard.jsp"%>
+    		</c:when>
+    		<c:otherwise>
+    		<%@include file="../includes/jstl/spaceLeaderboard.jsp"%>
+    		</c:otherwise>
+    	</c:choose>-->
     </div>
-  	<footer>
-      <p>
-        <small>
-          Copyright &copy; 2017 ITSD GameCaptone 2017<br>
-        </small>        
-      </p> 
-    </footer>
+  	<%@include file="../includes/footer.jsp" %> 
   </body>
 </html>

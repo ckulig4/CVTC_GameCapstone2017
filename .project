@@ -40,5 +40,25 @@
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
+		<link>
+			<name>WebContent/assets/images/football.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/football1.jpg</locationURI>
+		</link>
+		<link>
+			<name>WebContent/assets/images/medieval.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Text%20Adventure/images/medieval.jpg</locationURI>
+		</link>
+		<link>
+			<name>WebContent/assets/images/spaceBackground.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/spaceBackground.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/assets/images/spaceShip.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/spaceShip.png</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
